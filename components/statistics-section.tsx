@@ -44,125 +44,113 @@ export default function StatisticsSection() {
         </div>
 
         {/* First Statistic - $50M+ AUM */}
-        <div className="absolute" style={{ left: "200px", top: "349.5px" }}>
-          <div className="flex items-center gap-6">
-            {/* AUM Triangle Icon */}
-            <img
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/AUM%20%282%29-WEEOcWRY6ONQLwY7us2spNJKxqC2SN.png"
-              alt="AUM Icon"
-              className="w-[80px] h-[90px]"
-            />
+        <div className="absolute">
+          {/* Icon */}
+          <img
+            src="/icon-triangle-updated.png"
+            alt="AUM Icon"
+            className="absolute w-[91px] h-[102px]"
+            style={{ left: "1195.39px", top: "366.5px" }}
+          />
 
-            {/* Text Content */}
-            <div>
-              {/* Statistic Number */}
-              <div className="mb-4">
-                <span
-                  className="text-white text-[50px] font-normal"
-                  style={{
-                    fontFamily: "Montserrat, sans-serif",
-                    textShadow: "6px 4px 0px #0E2751, 0px 1px 0px #0E2751",
-                  }}
-                >
-                  $50M+
-                </span>
-              </div>
+          {/* Statistic Number */}
+          <div className="absolute w-[169px] h-[61px]" style={{ left: "319px", top: "349.5px" }}>
+            <span
+              className="text-white text-[50px] font-normal"
+              style={{
+                fontFamily: "Montserrat, sans-serif",
+                textShadow: "6px 4px 0px #0E2751, 0px 1px 0px #0E2751",
+              }}
+            >
+              $50M+
+            </span>
+          </div>
 
-              {/* Label */}
-              <div>
-                <span
-                  className="text-[24px] font-normal"
-                  style={{
-                    fontFamily: "Montserrat, sans-serif",
-                    color: "#E5EDF7",
-                  }}
-                >
-                  AUM
-                </span>
-              </div>
-            </div>
+          {/* Label */}
+          <div className="absolute w-[65px] h-[29px]" style={{ left: "319px", top: "457.5px" }}>
+            <span
+              className="text-[24px] font-normal"
+              style={{
+                fontFamily: "Montserrat, sans-serif",
+                color: "#E5EDF7",
+              }}
+            >
+              AUM
+            </span>
           </div>
         </div>
 
         {/* Second Statistic - 25+ Portfolio Projects */}
-        <div className="absolute" style={{ left: "800px", top: "349.5px" }}>
-          <div className="flex items-center gap-6">
-            {/* Portfolio Projects Hexagon Icon */}
-            <img
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Portfolio%20Projects-Rz0tsHKtKxBlLNuW8MnQMZWIme9JaH.png"
-              alt="Portfolio Icon"
-              className="w-[80px] h-[90px]"
-            />
+        <div className="absolute">
+          {/* Icon */}
+          <img
+            src="/icon-hexagon-final.png"
+            alt="Portfolio Icon"
+            className="absolute w-[109px] h-[71px]"
+            style={{ left: "737px", top: "382.5px" }}
+          />
 
-            {/* Text Content */}
-            <div>
-              {/* Statistic Number */}
-              <div className="mb-4">
-                <span
-                  className="text-white text-[50px] font-normal"
-                  style={{
-                    fontFamily: "Montserrat, sans-serif",
-                    textShadow: "6px 4px 0px #0E2751, 0px 1px 0px #0E2751",
-                  }}
-                >
-                  25+
-                </span>
-              </div>
+          {/* Statistic Number */}
+          <div className="absolute w-[85px] h-[61px]" style={{ left: "893px", top: "346.5px" }}>
+            <span
+              className="text-white text-[50px] font-normal"
+              style={{
+                fontFamily: "Montserrat, sans-serif",
+                textShadow: "6px 4px 0px #0E2751, 0px 1px 0px #0E2751",
+              }}
+            >
+              25+
+            </span>
+          </div>
 
-              {/* Label */}
-              <div>
-                <span
-                  className="text-[24px] font-normal"
-                  style={{
-                    fontFamily: "Montserrat, sans-serif",
-                    color: "#E5EDF7",
-                  }}
-                >
-                  Portfolio Projects
-                </span>
-              </div>
-            </div>
+          {/* Label */}
+          <div className="absolute w-[212px] h-[29px]" style={{ left: "893px", top: "444.5px" }}>
+            <span
+              className="text-[24px] font-normal"
+              style={{
+                fontFamily: "Montserrat, sans-serif",
+                color: "#E5EDF7",
+              }}
+            >
+              Portfolio Projects
+            </span>
           </div>
         </div>
 
         {/* Third Statistic - 4 Successful Exits */}
-        <div className="absolute" style={{ left: "1450px", top: "349.5px" }}>
-          <div className="flex items-center gap-6">
-            {/* Successful Exits Cube Icon */}
-            <img
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Successful%20Exit-YUx3Y8uNiCc9tFa3pAdKwPlmqUhcxG.png"
-              alt="Exits Icon"
-              className="w-[80px] h-[90px]"
-            />
+        <div className="absolute">
+          {/* Icon */}
+          <img
+            src="/icon-cube-final.png"
+            alt="Exits Icon"
+            className="absolute w-[96px] h-[91px]"
+            style={{ left: "1315px", top: "372.5px" }}
+          />
 
-            {/* Text Content */}
-            <div>
-              {/* Statistic Number */}
-              <div className="mb-4">
-                <span
-                  className="text-white text-[50px] font-normal"
-                  style={{
-                    fontFamily: "Montserrat, sans-serif",
-                    textShadow: "6px 4px 0px #0E2751, 0px 1px 0px #0E2751",
-                  }}
-                >
-                  4
-                </span>
-              </div>
+          {/* Statistic Number */}
+          <div className="absolute w-[33px] h-[61px]" style={{ left: "1477px", top: "346.5px" }}>
+            <span
+              className="text-white text-[50px] font-normal"
+              style={{
+                fontFamily: "Montserrat, sans-serif",
+                textShadow: "6px 4px 0px #0E2751, 0px 1px 0px #0E2751",
+              }}
+            >
+              4
+            </span>
+          </div>
 
-              {/* Label */}
-              <div>
-                <span
-                  className="text-[24px] font-normal"
-                  style={{
-                    fontFamily: "Montserrat, sans-serif",
-                    color: "#E5EDF7",
-                  }}
-                >
-                  Successful Exits
-                </span>
-              </div>
-            </div>
+          {/* Label */}
+          <div className="absolute w-[189px] h-[29px]" style={{ left: "1477px", top: "444.5px" }}>
+            <span
+              className="text-[24px] font-normal"
+              style={{
+                fontFamily: "Montserrat, sans-serif",
+                color: "#E5EDF7",
+              }}
+            >
+              Successful Exits
+            </span>
           </div>
         </div>
 

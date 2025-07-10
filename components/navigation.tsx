@@ -1,13 +1,4 @@
-"use client"
-import { useState } from "react"
-
 export default function Navigation() {
-  const [isSearchOpen, setIsSearchOpen] = useState(false)
-
-  const toggleSearch = () => {
-    setIsSearchOpen(!isSearchOpen)
-  }
-
   return (
     <div
       className="absolute z-20"
@@ -71,33 +62,20 @@ export default function Navigation() {
             </span>
           </div>
 
-          {/* Language Selector - EN with dropdown arrow */}
-          <div
-            className="absolute flex items-center cursor-pointer hover:opacity-80 transition-opacity"
-            style={{ left: "1639px", top: "36px" }}
-          >
+          {/* Language Selector - EN */}
+          <div className="absolute" style={{ left: "1639px", top: "36px", width: "30px", height: "24px" }}>
             <span className="text-white text-[24px] font-normal" style={{ fontFamily: "Montserrat, sans-serif" }}>
               EN
             </span>
-            <svg className="ml-2 w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
-              <path
-                fillRule="evenodd"
-                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                clipRule="evenodd"
-              />
-            </svg>
           </div>
 
-          {/* Search Icon */}
-          <div
-            className="absolute cursor-pointer hover:scale-110 transition-transform duration-200"
-            style={{ left: "1720px", top: "38px" }}
-            onClick={toggleSearch}
-          >
+          {/* Small Icon Group 279 */}
+          <div className="absolute" style={{ left: "1695.46px", top: "41.83px", width: "12.3px", height: "7.17px" }}>
             <img
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-LrXt0kVTfrPZWYjXCgCJAgisld6thy.png"
-              alt="Search"
-              className="w-[20px] h-[20px] hover:opacity-80 transition-opacity duration-200"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%E7%BB%84%20279-OrRfWstPPrtL5ZRS2A3w1zKcDcvl2M.png"
+              alt="Dropdown Arrow"
+              className="w-full h-full object-contain"
+              style={{ filter: "brightness(0) invert(1)" }}
             />
           </div>
 
@@ -109,32 +87,6 @@ export default function Navigation() {
           </div>
         </nav>
       </div>
-
-      {/* Search Overlay */}
-      {isSearchOpen && (
-        <div
-          className="absolute inset-0 bg-[#13325E]/95 backdrop-blur-sm z-30 flex items-center justify-center transition-all duration-300"
-          style={{ height: "100px" }}
-        >
-          <div className="flex items-center bg-white rounded-lg px-4 py-2 w-[600px] shadow-lg">
-            <img
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-LrXt0kVTfrPZWYjXCgCJAgisld6thy.png"
-              alt="Search"
-              className="w-[20px] h-[20px] mr-3 opacity-60"
-            />
-            <input
-              type="text"
-              placeholder="Search..."
-              className="flex-1 outline-none text-[18px] text-gray-700"
-              style={{ fontFamily: "Montserrat, sans-serif" }}
-              autoFocus
-            />
-            <button onClick={toggleSearch} className="ml-3 text-gray-500 hover:text-gray-700 text-[20px] font-bold">
-              ×
-            </button>
-          </div>
-        </div>
-      )}
     </div>
   )
 }
